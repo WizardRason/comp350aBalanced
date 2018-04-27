@@ -1,0 +1,12 @@
+# TODO: complete this in class
+language: cpp
+compiler: gcc
+# command to run tests
+script: make && make test
+
+notifications:
+  email:
+    recipients:
+      - bendermc1@gcc.edu
+    on_success: never   # default: change
+    on_failure: always  # default: always
